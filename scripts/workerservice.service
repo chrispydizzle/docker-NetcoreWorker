@@ -1,5 +1,5 @@
 [Unit]
-Description=AWS CodeStar Sample ASP.NET Core Web Service
+Description=NetCoreWorker
 
 [Service]
 WorkingDirectory=≈/opt/netcoreworker

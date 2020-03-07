@@ -1,9 +1,11 @@
 #!/bin/bash
 cd /home/ubuntu/
 
-sudo chmod +x /opt/
+# sudo chmod +x /opt/
 
 # use systemd to start and monitor dotnet application
+systemctl daemon-reload
+
 systemctl enable workerservice.service
 systemctl start workerservice.service
 
