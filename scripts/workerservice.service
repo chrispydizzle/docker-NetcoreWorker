@@ -3,11 +3,11 @@ Description=AWS CodeStar Sample ASP.NET Core Web Service
 
 [Service]
 WorkingDirectory=/home/ubuntu/aspnetcoreservice/
-ExecStart=/home/ubuntu/aspnetcoreservice/NetCoreWorker
+ExecStart=/opt/netcoreworker/NetCoreWorker
 Restart=always
 RestartSec=10
 SyslogIdentifier=netcoreworker
-User=www-data
+User=netcoreuser
 Environment=ASPNETCORE_ENVIRONMENT=Production
 
 [Install]

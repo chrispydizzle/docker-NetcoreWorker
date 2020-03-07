@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: NetCoreWorker/bin/release/netcoreapp3.0/
-    destination: /home/ubuntu/aspnetcoreservice
+    destination: /opt/netcoreworker
   - source: scripts/workerservice.service
     destination: /etc/systemd/system
 hooks:

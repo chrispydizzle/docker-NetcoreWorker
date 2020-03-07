@@ -32,7 +32,7 @@ Parameters:
     Default: ''
 Resources:
   WebApp01:
-    Description: The installation and configuration commands this project will use to create instances that support this sample web application.
+    Description: The installation and configuration commands this project will use to create instances that support this application.
     Properties:
       CreditSpecification:
         CPUCredits: !If [IsBurstableInstanceType, unlimited, !Ref 'AWS::NoValue']
