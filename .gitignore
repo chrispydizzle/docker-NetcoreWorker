@@ -2,3 +2,6 @@
 **/bin
 **/obj
 **/*.csproj.user
+/.idea/
+/codealike.json
+**/*.blob

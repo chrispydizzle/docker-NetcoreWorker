@@ -2,8 +2,8 @@
 cd /home/ubuntu/
 
 # use systemd to start and monitor dotnet application
-systemctl enable kestrel-aspnetcoreservice.service
-systemctl start kestrel-aspnetcoreservice.service
+systemctl enable workerservice.service
+systemctl start workerservice.service
 
 # start apache
-systemctl restart apache2.service
+# systemctl restart apache2.service

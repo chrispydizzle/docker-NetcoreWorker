@@ -1,11 +1,9 @@
 version: 0.0
 os: linux
 files:
-  - source: AspNetCoreWebService/bin/release/netcoreapp3.0/
+  - source: NetCoreWorker/bin/release/netcoreapp3.0/
     destination: /home/ubuntu/aspnetcoreservice
-  - source: scripts/virtualhost.conf
-    destination: /home/ubuntu/aspnetcoreservice
-  - source: scripts/kestrel-aspnetcoreservice.service
+  - source: scripts/workerservice.service
     destination: /etc/systemd/system
 hooks:
   ApplicationStop:
@@ -25,10 +23,6 @@ hooks:
 
     - location: scripts/install_dotnetcore
       timeout: 500
-      runas: root
-
-    - location: scripts/install_httpd
-      timeout: 300
       runas: root
 
   ApplicationStart:

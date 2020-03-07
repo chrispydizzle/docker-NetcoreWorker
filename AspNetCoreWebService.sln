@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreWebService", "AspNetCoreWebService\AspNetCoreWebService.csproj", "{CB05BF81-9D45-4853-8F0E-22DABAA07B3A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreWorker", "NetCoreWorker\NetCoreWorker.csproj", "{CB05BF81-9D45-4853-8F0E-22DABAA07B3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreWebServiceTest", "AspNetCoreWebServiceTest\AspNetCoreWebServiceTest.csproj", "{3653083E-10EB-4D21-80B2-38FBF64A7DA8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreWorkerTests", "NetCoreWorkerTests\NetCoreWorkerTests.csproj", "{3653083E-10EB-4D21-80B2-38FBF64A7DA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

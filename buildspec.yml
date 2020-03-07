@@ -6,13 +6,10 @@ phases:
   pre_build:
     commands:
       - pip install --upgrade awscli
-      - dotnet restore AspNetCoreWebService/AspNetCoreWebService.csproj
-      - dotnet restore AspNetCoreWebServiceTest/AspNetCoreWebServiceTest.csproj
+      - dotnet restore NetCoreWorker/NetCoreWorker.csproj
   build:
     commands:
-      - dotnet publish -c release -o ./build_output AspNetCoreWebService/AspNetCoreWebService.csproj
-      - dotnet publish -c release -o ./test_output AspNetCoreWebServiceTest/AspNetCoreWebServiceTest.csproj
-      - dotnet vstest AspNetCoreWebServiceTest/bin/release/netcoreapp3.0/AspNetCoreWebServiceTest.dll
+      - dotnet publish -c release -o ./build_output NetCoreWorker/NetCoreWorker.csproj
   post_build:
     commands:
       # Do not remove this statement. This command is required for AWS CodeStar projects.
@@ -21,7 +18,7 @@ phases:
 artifacts:
   files:
     - template.yml
-    - AspNetCoreWebService/bin/**/*
+    - NetCoreWorker/bin/**/*
     - scripts/**/*
     - appspec.yml
     - template-configuration.json
