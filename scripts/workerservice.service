@@ -2,7 +2,7 @@
 Description=NetCoreWorker
 
 [Service]
-WorkingDirectory=≈/opt/netcoreworker
+WorkingDirectory=/opt/netcoreworker
 ExecStart=/usr/bin/dotnet /opt/netcoreworker/NetCoreWorker.dll
 Restart=always
 RestartSec=10
