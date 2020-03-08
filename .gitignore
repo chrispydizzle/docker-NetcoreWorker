@@ -4,4 +4,4 @@
 **/*.csproj.user
 /.idea/
 /codealike.json
-**/*.blob
+*.blob

@@ -1,4 +1,4 @@
-﻿namespace NetCoreWorker
+﻿namespace NetCore.Worker
 {
     using System;
     using System.Threading;

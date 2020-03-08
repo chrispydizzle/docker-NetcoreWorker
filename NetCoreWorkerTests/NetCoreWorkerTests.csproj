@@ -26,6 +26,6 @@
    </ItemGroup>
 
    <ItemGroup>
-     <ProjectReference Include="..\NetCoreWorker\NetCoreWorker.csproj" />
+     <ProjectReference Include="..\NetCore.Worker\NetCore.Worker.csproj" />
    </ItemGroup>
 </Project>

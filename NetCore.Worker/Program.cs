@@ -1,4 +1,4 @@
-﻿namespace NetCoreWorker
+﻿namespace NetCore.Worker
 {
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
