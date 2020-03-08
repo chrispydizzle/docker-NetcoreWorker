@@ -3,7 +3,6 @@ cd /home/ubuntu/
 
 mkdir /opt
 sudo mkdir /opt/netcoreworker
-sudo chown /opt/netcoreworker
 
 adduser netcoreuser
 
@@ -11,6 +10,7 @@ chown -R netcoreuser /opt/netcoreworker
 
 # install dotnet core
 # https://www.microsoft.com/net/core#linuxubuntu
+
 if [ ! -f /usr/bin/dotnet ]; then
     apt-get install libunwind8
 

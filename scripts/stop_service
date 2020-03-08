@@ -3,5 +3,10 @@
 # stop apache
 #ystemctl stop apache2.service
 
+
 # stop dotnet application
-systemctl stop workerservice.service
+systemctl stop workerservice.service |& > RES
+echo "okay, going to ignore that, because we don't care if he was running before."
+
+echo "here's a log!"
+echo "$RES" >> problemlog.log
