@@ -2,4 +2,6 @@
 	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
   &lt;Assembly Path="/home/cp/.nuget/packages/serilog/2.5.0/lib/netstandard1.3/Serilog.dll" /&gt;
   &lt;Assembly Path="/home/cp/.nuget/packages/serilog/2.8.0/lib/netstandard2.0/Serilog.dll" /&gt;
+  &lt;Assembly Path="/usr/share/dotnet/packs/Microsoft.AspNetCore.App.Ref/3.1.2/ref/netcoreapp3.1/Microsoft.AspNetCore.Server.Kestrel.Core.dll" /&gt;
+  &lt;Assembly Path="/usr/share/dotnet/packs/Microsoft.AspNetCore.App.Ref/3.1.2/ref/netcoreapp3.1/Microsoft.AspNetCore.Connections.Abstractions.dll" /&gt;
 &lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>
